@@ -7,6 +7,21 @@
 **DebDemon** is a *fully undetectable (FUD)* rootkit for Debian-based Linux. It stealthily hides processes, files, and connections while giving you root-level access. Ideal for red teaming and research. 👹🔒
 
 ---
+# 📁 Project Structure
+debdemon/
+├── core/
+│   ├── preload_hider.c       # LD_PRELOAD rootkit core
+│   └── loader.py             # Python wrapper for deploying .so
+├── plugins/
+│   ├── reverse_shell.py      # Encrypted reverse shell plugin
+│   └── __init__.py
+├── cli/
+│   └── daemon.py             # Backdoor CLI trigger logic
+├── setup.py
+├── debdemon.py               # Main bootstrap
+└── README.md
+
+
 
 ## 📚 Table of Contents
 
