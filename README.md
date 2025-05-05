@@ -8,18 +8,18 @@
 
 ---
 # 📁 Project Structure
-debdemon/
-├── core/
-│   ├── preload_hider.c       # LD_PRELOAD rootkit core
-│   └── loader.py             # Python wrapper for deploying .so
-├── plugins/
-│   ├── reverse_shell.py      # Encrypted reverse shell plugin
-│   └── __init__.py
-├── cli/
-│   └── daemon.py             # Backdoor CLI trigger logic
-├── setup.py
-├── debdemon.py               # Main bootstrap
-└── README.md
+- debdemon/
+- ├── core/
+- │   ├── preload_hider.c       # LD_PRELOAD rootkit core
+- │   └── loader.py             # Python wrapper for deploying .so
+- ├── plugins/
+- │   ├── reverse_shell.py      # Encrypted reverse shell plugin
+- │   └── __init__.py
+- ├── cli/
+- │   └── daemon.py             # Backdoor CLI trigger logic
+- ├── setup.py
+- ├── debdemon.py               # Main bootstrap
+- └── README.md
 
 
 
